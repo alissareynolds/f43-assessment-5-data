@@ -1,0 +1,9 @@
+tables:
+animals 
+animal species 
+people
+join table for people_animals
+employees
+vet 
+relationships:
+animals to animal species - many to many 
