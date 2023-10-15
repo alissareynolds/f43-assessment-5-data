@@ -2,8 +2,28 @@ tables:
 animals 
 animal species 
 people
-join table for people_animals
-employees
-vet 
+owners_animals - join table between animals and people 
+
+
 relationships:
-animals to animal species - many to many 
+animals to animal species - one to many - animal has a foreign key to species
+people to animals - many to many 
+
+animals:
+animal_id 
+species_id foreign key 
+name 
+birthdate 
+
+animal species: 
+species_id
+species_name
+
+people:
+people_id
+name 
+birthdate
+
+owners_animals
+owner_id
+animal_id 
